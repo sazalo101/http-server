@@ -1,4 +1,4 @@
-module Httpserver  {
+module  {
     /// Example: `("Content-Type", "text/html")`
     public type Header = (Text, Text);
 
