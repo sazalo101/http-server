@@ -1,0 +1,10 @@
+[package]
+name = "http-server"
+version = "1.0.0"
+description = "Better usage with API keys"
+repository = "https://github.com/sazalo101/http-server"
+keywords = [ "api" ]
+license = "MIT"
+
+[dependencies]
+base = "0.12.1"

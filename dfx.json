@@ -1,14 +1,14 @@
 {
   "canisters": {
     "HttpServer_backend": {
-      "main": "src/HttpServer_backend/main.mo",
+      "main": "src/HttpServer_backend/HttpServer.mo",
       "type": "motoko"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
